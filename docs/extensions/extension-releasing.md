@@ -105,11 +105,11 @@ To ensure Gemini CLI can automatically find the correct release asset for each
 platform, you must follow this naming convention. The CLI will search for assets
 in the following order:
 
-1.  **Platform and architecture-Specific:**
-    `{platform}.{arch}.{name}.{extension}`
-2.  **Platform-specific:** `{platform}.{name}.{extension}`
-3.  **Generic:** If only one asset is provided, it will be used as a generic
-    fallback.
+1. **Platform and architecture-Specific:**
+   `{platform}.{arch}.{name}.{extension}`
+2. **Platform-specific:** `{platform}.{name}.{extension}`
+3. **Generic:** If only one asset is provided, it will be used as a generic
+   fallback.
 
 - `{name}`: The name of your extension.
 - `{platform}`: The operating system. Supported values are:
